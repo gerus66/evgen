@@ -1,0 +1,24 @@
+2.D-14   MeV, precision for check of everything's going right
+0.02     min epsilon for 'coulfg4.for' don't produce trash
+570.D0   MeV/nuclon, energy of beam. DON'T SET NULL!
+2       z core
+1        z 1st particle
+1        z 2nd particle
+4000000       a core
+1        a 1st particle
+1        a 2nd particle
+1        l, 1st resonance
+1        l, 2st resonance
+3        2*j, 1st resonance
+3        2*j, 2st resonance
+0        J total
+2.39D0     fm, radius of chanel 1st resonance
+2.39D0     fm, radius of chanel 2st resonance
+1.37D0   MeV, total energy
+2.08D0    MeV, energy 1st resonance
+2.08D0    MeV, energy 2st resonance
+1.585D0    tet^2 1st resonance
+1.585D0    tet^2 2st resonance
+-----------------------------------------------------------
+Main parameters for events generation
+by evgen.exe

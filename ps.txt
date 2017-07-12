@@ -1,0 +1,4 @@
+4.D    fm, radius
+-----------------------------------------------------------
+Potential scattering parameters for events generation
+by evgen.exe

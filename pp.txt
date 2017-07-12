@@ -1,0 +1,5 @@
+cffac-0-r4.grf       #  file with data for extrapolation - symmetric (S=0)
+cffac-1-r4.grf       #  file with data for extrapolation - asymmetric (S=1)
+-----------------------------------------------------------
+Proton-proton parameters for events generation
+by evgen.exe

@@ -1,0 +1,20 @@
+----
+500000     #  number of events
+100000     #  period for progress check (evgen will say "Ping!" to you and output all histograms as is)
+50         #  number of bins for diagnostic histograms
+----
+0          #  0 - one calculation, 1 - grid of calculations                 -->  grid.txt
+0          #  0 - diagnostics only, 1 - diagnostics and generation 
+0          #  0 - no App, 1 - include App (proton-proton interaction)       -->  pp.txt
+0          #  0 - no Aps, 1 - include Aps (potential scattering amplitude)  -->  ps.txt
+----
+1          #  number of configurations below  
+6Be_0+_p32_v1.txt   #  parameter file for the nucleon. copy as many times as you need  !! length under 50 symbols !!
+1.D0       #  coefficient for the configuration. copy as many times as you need
+----
+2.D-14     #  MeV, precision for check of everything's going right
+0.02       #  min epsilon for 'coulfg4.for' don't produce trash
+570.D0     #  MeV/nucleon, beam energy.    !! Don't set NULL !!
+----
+Main parameters for events generation
+by evgen.exe
