@@ -1,0 +1,19 @@
+----
+10000000     #  number of events
+20         #  number of bins for diagnostic histograms
+----
+570.D0     #  MeV/nucleon, beam energy.    !! Don't set NULL !!
+----
+0          #  0 - no output (only width in log), 1 - usual output
+1          #  0 - one calculation, 1 - grid of calculations                 -->  grid.txt
+0          #  0 - diagnostics only, 1 - diagnostics and generation 
+0          #  0 - no Wpp, 1 - include Wpp (proton-proton interaction)       -->  pp.txt
+0          #  0 - no Aps, 1 - include Aps (potential scattering amplitude)  -->  ps.txt
+0          #  0 - coefficients from bellow, 1 - fitting of coefficients     -->  fit.txt
+----
+1          #  number of configurations below  
+67Kr_0+.txt   #  parameter file for the nucleon. copy as many times as you set number above  !! length under 50 symbols !!
+1.D0       #  [Re] coefficient for the configuration. copy as many times as you set number above
+0.D0       #  [Im] coefficient for the configuration. copy as many times as you set number above
+----
+Main parameters for events generation by "evgen"

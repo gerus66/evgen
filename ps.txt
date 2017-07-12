@@ -1,0 +1,3 @@
+1.5D0      #  fm, radius
+-----------------------------------------------------------
+Potential scattering parameters for events generation by "evgen"

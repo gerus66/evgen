@@ -1,0 +1,9 @@
+0.1D0     #  E-total - step           !DONT set null!
+1.69D0     #  E-total - final value
+0.1D0     #  E-resonance - step       !DONT set null!
+2.0D0   #  E-resonance - final value
+0.4D0     #  Theta^2 - step           !DONT set null!
+1.0D0     #  Theta^2 - final value
+-----------------------------------------------------------
+Grid parameters for events generation
+by evgen.exe

@@ -1,0 +1,19 @@
+expt0p.dat   # path to {eps, cos_theta} square array
+expy0p.dat   # path to {eps, cos_theta} square array
+0.86D0        # a - start
+0.86D0         #     finish
+0.0D0       #     step 
+28.D0         # grad, phi_a - start
+28.D0         #             finish 
+1.D0         #              step
+0.08D0         # b - start
+0.08D0         #     finish
+0.01D0       #     step  
+0.D0         # grad, phi_b - start
+0.D0         #               finish
+30.D0         #               step
+
+о точности фита -
+событий    sigma
+100000      0.2
+500000      0.1  
